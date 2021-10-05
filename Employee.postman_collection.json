@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "d51d95be-c2bc-41be-be5a-4b36e98c1f53",
+		"name": "Employee",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "DeleteEmployee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Data\": {\r\n        \"Employee\" : 6,\r\n        \"Department\": \"Akuntan\",\r\n        \"Jabatan\": \"Staf Edited\",\r\n        \"FasilitasId\": 2\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/v1/Employee/DeleteEmployee",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"v1",
+						"Employee",
+						"DeleteEmployee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateEmployee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Data\": {\r\n        \"Employee\" : 6,\r\n        \"Department\": \"Akuntan\",\r\n        \"Jabatan\": \"Staf Edited\",\r\n        \"FasilitasId\": 2\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/v1/Employee/UpdateEmployee",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"v1",
+						"Employee",
+						"UpdateEmployee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertEmployee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Data\": {\r\n        \"Department\": \"Akuntan\",\r\n        \"Jabatan\": \"Staf\",\r\n        \"FasilitasId\": 2\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/v1/Employee/InsertEmployee",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"v1",
+						"Employee",
+						"InsertEmployee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InquiryEmployee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Data\": {\r\n        \"Employee\": 0\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/v1/employee/InquiryEmployee",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"InquiryEmployee"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
