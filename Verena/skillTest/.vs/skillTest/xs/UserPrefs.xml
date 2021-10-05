@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{F4F44445-E835-4DBD-8822-FD239440869A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="skillTest/Service/clsAPIService.cs">
+    <Files>
+      <File FileName="skillTest/Service/clsAPIService.cs" Line="337" Column="11" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="skillTest" expanded="True">
+            <Node name="skillTest" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Service" expanded="True">
+                <Node name="clsAPIService.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.skillTest PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

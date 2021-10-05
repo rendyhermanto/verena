@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{389A6537-9214-461F-8DF3-9ADBBCD801F1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="APISkillTest/Startup.cs">
+    <Files>
+      <File FileName="APISkillTest/Controllers/EmployeeController.cs" Line="18" Column="26" />
+      <File FileName="APISkillTest/Startup.cs" Line="41" Column="22" />
+      <File FileName="APISkillTest/Logic/clsLogic.cs" Line="12" Column="34" />
+      <File FileName="APISkillTest/Service/IServices.cs" Line="7" Column="22" />
+      <File FileName="APISkillTest/appsettings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="APISkillTest" expanded="True">
+            <Node name="APISkillTest" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Logic" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="Service" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.APISkillTest PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
