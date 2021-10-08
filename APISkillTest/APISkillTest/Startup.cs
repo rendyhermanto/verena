@@ -22,6 +22,7 @@ namespace APISkillTest
         }
 
         public IConfiguration Configuration { get; }
+        private readonly string _policyName = "CorsPolicy";
 
         // This method gets called by the runtime. Use this method to add services to the container.
         [Obsolete]
@@ -32,10 +33,20 @@ namespace APISkillTest
             // bool ignoreSSL = Configuration["IgnoreSSLBit"].Equals("1") ? true : false;
 
             //Enable CORS
-            services.AddCors(c =>
+            //services.AddCors(c =>
+            //{
+            //    c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyMethod()
+            //    .AllowAnyHeader());
+            //});
+
+            services.AddCors(opt =>
             {
-                c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyMethod()
-                .AllowAnyHeader());
+                opt.AddPolicy(name: _policyName, builder =>
+                {
+                    builder.AllowAnyOrigin()
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                });
             });
 
             services.AddScoped<IServices, clsAPIService>();
@@ -58,6 +69,7 @@ namespace APISkillTest
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors(_policyName);
 
             app.UseAuthorization();
 
